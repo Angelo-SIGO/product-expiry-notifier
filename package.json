@@ -1,0 +1,18 @@
+{
+  "name": "product-expiry-notifier",
+  "version": "1.0.0",
+  "description": "Product Expiry Notifier — PEN — is an application that monitors the expirarion of products and notifies when is nearing expiration.",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Angelo Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
