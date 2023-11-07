@@ -1,6 +1,6 @@
 # Product Expiry Notifier
 
-Product Expiry Notifier — PEN — is an application that monitors the expirarion of products and notifies when is nearing expiration.
+Product Expiry Notifier (PEN) is an application that monitors the expiry date of products and notifies when something is nearing expiration.
 
 ## License
 
