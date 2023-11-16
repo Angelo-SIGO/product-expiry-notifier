@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bem-vindo!</title>
+    </head>
+    <body>
+        <header>
+            <h1>Primeiros passos</h1>
+            <p>Utilize esta página realizar a configuração inicial do sistema.</p>
+        </header>
+	<main>
+           <form method="POST">
+               <fieldset>
+                   <legend>Conexão Google</legend>
+                   <label for="private-key">Chave de acesso privada</label>
+                   <input id="private-key" name="private-key" type="file" placeholder="Insira sua chave de acesso...">
+                   <label for="spreadsheet-link">Link da planilha</label>
+                   <input id="spreadsheet-link" name="spreadsheet-link" type="url" placeholder="Insira o link da sua planilha...">
+               </fieldset>
+               <fieldset>
+                   <legend>Notificação por e-mail</legend>
+                   <label for="e-mail">E-mail</label>
+                   <input id="e-mail" name="e-mail" type="email" placeholder="Insira o seu e-mail...">
+               </fieldset>
+           </form>
+           <button id="prev" type="button">Voltar</button>
+           <button id="next" type="button">Avançar</button>
+        </main>
+    </body>
+</html>
